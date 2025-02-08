@@ -7,6 +7,7 @@ setup(
     version="0.1.0",
     author="Ocarina",
     author_email="Ocarina1024@gmail.com",
+    description="A powerful file tagging tool to help you organize and find files efficiently.",
     packages=find_packages(),
     install_requires=[
         "PySide6>=6.0.0",
@@ -24,4 +25,8 @@ setup(
     package_data={
         'file_tag_manager.ui': ['config/*.yaml'],
     },
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+    ]
 )
